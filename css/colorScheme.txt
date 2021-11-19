@@ -1,4 +1,10 @@
-CSS
+/* CSS Use basic  */
+$space-cadet: #1f2041;
+$cyber-grape: #4b3f72;
+$maximum-yellow-red: #ffc857;
+$viridian-green: #119da4;
+$blue-sapphire: #19647e;
+
 /* CSS HEX */
 --space-cadet: #1f2041ff;
 --cyber-grape: #4b3f72ff;
@@ -6,26 +12,12 @@ CSS
 --viridian-green: #119da4ff;
 --blue-sapphire: #19647eff;
 
-/* CSS HSL */
---space-cadet: hsla(238, 35%, 19%, 1);
---cyber-grape: hsla(254, 29%, 35%, 1);
---maximum-yellow-red: hsla(40, 100%, 67%, 1);
---viridian-green: hsla(183, 81%, 35%, 1);
---blue-sapphire: hsla(195, 67%, 30%, 1);
-
 /* SCSS HEX */
 $space-cadet: #1f2041ff;
 $cyber-grape: #4b3f72ff;
 $maximum-yellow-red: #ffc857ff;
 $viridian-green: #119da4ff;
 $blue-sapphire: #19647eff;
-
-/* SCSS HSL */
-$space-cadet: hsla(238, 35%, 19%, 1);
-$cyber-grape: hsla(254, 29%, 35%, 1);
-$maximum-yellow-red: hsla(40, 100%, 67%, 1);
-$viridian-green: hsla(183, 81%, 35%, 1);
-$blue-sapphire: hsla(195, 67%, 30%, 1);
 
 /* SCSS RGB */
 $space-cadet: rgba(31, 32, 65, 1);
@@ -44,6 +36,24 @@ $gradient-bottom-right: linear-gradient(135deg, #1f2041ff, #4b3f72ff, #ffc857ff,
 $gradient-top-left: linear-gradient(225deg, #1f2041ff, #4b3f72ff, #ffc857ff, #119da4ff, #19647eff);
 $gradient-bottom-left: linear-gradient(315deg, #1f2041ff, #4b3f72ff, #ffc857ff, #119da4ff, #19647eff);
 $gradient-radial: radial-gradient(#1f2041ff, #4b3f72ff, #ffc857ff, #119da4ff, #19647eff);
+
+
+/* CSS HSL */
+--space-cadet: hsla(238, 35%, 19%, 1);
+--cyber-grape: hsla(254, 29%, 35%, 1);
+--maximum-yellow-red: hsla(40, 100%, 67%, 1);
+--viridian-green: hsla(183, 81%, 35%, 1);
+--blue-sapphire: hsla(195, 67%, 30%, 1);
+
+
+/* SCSS HSL */
+$space-cadet: hsla(238, 35%, 19%, 1);
+$cyber-grape: hsla(254, 29%, 35%, 1);
+$maximum-yellow-red: hsla(40, 100%, 67%, 1);
+$viridian-green: hsla(183, 81%, 35%, 1);
+$blue-sapphire: hsla(195, 67%, 30%, 1);
+
+
 
 Attributions for Icons
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/arkinasi" title="Arkinasi">Arkinasi</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/th-studio" title="th studio">th studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/handicon" title="Handicon">Handicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/iconkanan" title="IconKanan">IconKanan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/secret-studio" title="Secret Studio">Secret Studio</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
