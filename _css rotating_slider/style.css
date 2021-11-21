@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow{
+    margin:0 auto;
+    width: 100%;
+    height: 100vh;
+    padding-top:150px ;
+    background-color: rgba(45, 168, 209, 0.525);
+    transform-style: preserve-3d;
+}
+.content{
+    margin: auto;
+    width: 200px;
+    perspective: 1000px;
+    padding-top: 80px;
+    background: transparent;
+}
+.carousel{
+    width: 100%;
+    animation: rotar 100s infinite linear;
+}
+.carousel:hover{
+    cursor: pointer;
+    animation-play-state: paused;
+}
+.carousel figure{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}
+.carousel figure:nth-child(1){
+    transform: rotateY(0deg) translateZ(400px);
+}
+.carousel figure:nth-child(2){
+    transform: rotateY(40deg) translateZ(250px);
+}
+.carousel figure:nth-child(3){
+    transform: rotateY(80deg) translateZ(250px);
+}
+.carousel figure:nth-child(4){
+    transform: rotateY(120deg) translateZ(250px);
+}
+.carousel figure:nth-child(5){
+    transform: rotateY(160deg) translateZ(250px);
+}
+.carousel figure:nth-child(6){
+    transform: rotateY(200deg) translateZ(250px);
+}  
+.carousel figure:nth-child(7){
+    transform: rotateY(240deg) translateZ(250px);
+}
+.carousel figure:nth-child(8){
+    transform: rotateY(280deg) translateZ(250px);
+}
+.carousel figure:nth-child(0){
+    transform: rotateY(320deg) translateZ(250px);
+}
+
+.carousel img{
+    image-rendering: auto;
+    transition: all 300ms;
+    width: 100%;
+    height: 200px;
+    background: transparent;
+}
+
+.carousel img:hover{
+    transform:scale(1.4);
+    transition: all 300ms;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.shadow{
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 5px;
+}
+
+
+@keyframes rotar {   
+    from{
+        transform:rotateY(0deg);
+    }
+    to{
+        transform:rotateY(360deg);
+    }
+}
